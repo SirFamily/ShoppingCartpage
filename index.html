@@ -4,21 +4,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.jobpasscard.com/static/images/new_Jobpasscard/jobpasscard_logo.png"
+        type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Shopping</title>
+    <title>Job Passcard</title>
 </head>
 
 <body>
     <nav>
         <div class="container-nav">
-            <h1>JobPasscard</h1>
+            <img src="https://www.jobpasscard.com/static/images/new_Jobpasscard/jobpasscard-logo-nav.png" alt="logo">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <div class="text-nav">ABOUT US</ก>
+                </li>
+                <li>
+                    <div class="text-nav">PASSCARD</div>
+                </li>
+                <li>
+                    <div class="text-nav">PROFILE</div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="iconsearch"><img
+                            src="https://cdn-icons.flaticon.com/svg/3917/3917132.svg?token=exp=1702206054~hmac=a09760fefcbafff7a678d8a9a085fd54"
+                            alt=""></div>
+                </li>
+                <li>
+                    <div class="iconcart"><img
+                            src="https://cdn-icons.flaticon.com/svg/3916/3916598.svg?token=exp=1702206054~hmac=d90787de7f091aa6fbd4f1b5ae2a11d9"
+                            alt=""></div>
+                </li>
+                <li>
+                    <div class="text-nav">LOGIN</div>
+                </li>
+                <li>
+                    <div class="text-nav">SIGN UP</div>
+                </li>
             </ul>
         </div>
     </nav>
+
+    <div class="container-mycart">
+        <h1>My Cart</h1>
+
+        <div class="container-flex-row2">
+            <div class="row1">
+                <div class="row1-col1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/8995/8995415.png" alt="" class="icon-del">
+                    <div class="container-square">
+                        <img src="https://cdn-icons.flaticon.com/svg/3914/3914193.svg?token=exp=1702228415~hmac=a697ebf9d4503d8a10f77e7a8f3ed86d"
+                            alt="" class="icon-paper">
+                        <div class="text-square">Google Docs</div>
+                        <div class="text-square">Used for business</div>
+                    </div>
+                    <div class="container-Docs">
+                        <div class="text-detel">Google Docs</div>
+                        <div class="dot" id="dot-d-js1"></div>
+                        <div class="dot" id="dot-d-js2"></div>
+                        <div class="dot" id="dot-d-js3"></div>
+                        <div class="level-detel"><select name="" id="docs">
+                                <option value="0">LV 0-3</option>
+                                <option value="1">LV 1-3</option>
+                                <option value="2">LV 2-3</option>
+                                <option value="3">LV 3-3</option>
+                            </select></div>
+                        <div class="totle">THB <span id="totle">0</span></div>
+                    </div>
+                </div>
+                <div class="row1-col2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/8995/8995415.png" alt="" class="icon-del">
+                </div>
+            </div>
+
+
+            <div class="row2">
+                <div class="row1-col1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/8995/8995415.png" alt="" class="icon-del">
+                    <div class="container-square">
+                        <img src="https://cdn-icons.flaticon.com/svg/3914/3914193.svg?token=exp=1702228415~hmac=a697ebf9d4503d8a10f77e7a8f3ed86d"
+                            alt="" class="icon-paper">
+                        <div class="text-square">Google Slides</div>
+                        <div class="text-square">Used for business</div>
+                    </div>
+                    <div class="container-detel">
+                        <div class="text-detel">Google Slides</div>
+                        <div class="dot" id="dot-s-js1"></div>
+                        <div class="dot" id="dot-s-js2"></div>
+                        <div class="dot" id="dot-s-js3"></div>
+                        <div class="dot" id="dot-s-js4"></div>
+                        <div class="level-detel"><select name="" id="slides">
+                                <option value="0">LV 0/3</option>
+                                <option value="1">LV 1/3</option>
+                                <option value="2">LV 2/3</option>
+                                <option value="3">LV 3/3</option>
+                                <option value="4">LV 4/3</option>
+                            </select></div>
+                        <div class="totle">THB <span id="totle">0</span></div>
+                    </div>
+                </div>
+                <div class="row1-col2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/8995/8995415.png" alt="" class="icon-del">
+                </div>
+            </div>
+        </div>
+        <div class="container-flex-info">
+            <div class="container-info">
+                <h2>Order Info</h2>
+                <div class="text-totle" id="docs-js"></div>
+                <div class="text-totle" id="docs-lv-js"></div>
+                <div class="text-totle" id="slides-js"></div>
+                <div class="text-totle" id="slides-lv-js"></div>
+
+                <div class="subtotle">
+                    <div>
+                        <h2>Subtotal</h2>
+                    </div>
+                    <div id="price"></div>
+                </div>
+
+                <div class="promotion">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2314/2314119.png" class="icon-ad">
+                    <input type="text" id="" placeholder="Promotion Code">
+                    <button type="button">APPLY</button>
+                </div>
+            </div>
+
+            <div class="container-payment">
+                <div class="total">
+                    <p>Total payment</p>
+                    <h1 id="to-price"></h1>
+                </div>
+                <button type="button">LOG IN TO CHECKOUT</button>
+            </div>
+            
+        </div>
+    </div>
 
     <script src="/javascript.js"></script>
 </body>
