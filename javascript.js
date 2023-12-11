@@ -88,22 +88,6 @@ function updateTotal() {
 
 updateTotal();
 
-
-
-document.addEventListener("DOMContentLoaded", function () {
-    // เลือกการ์ดโดยใช้ ID
-    var delayShow = document.getElementById("delayshow");
-  
-    // กำหนดเวลาที่ต้องการให้แสดงต่อไป
-    var delay = 1000; // 1 วินาที
-  
-    // แสดงการ์ดทีละหนึ่งตัวทุก 1 วินาที
-    setInterval(function () {
-      // เปลี่ยน opacity เพื่อแสดงการ์ด
-      delayShow.style.opacity = "1";
-  
-    }, delay);
-  });
   
 
   function myFunction() {
