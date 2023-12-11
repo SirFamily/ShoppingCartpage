@@ -158,9 +158,13 @@ body {
 }
 
 .square-paper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
-    width: 20px;
-    border-radius: 6px;
+    width: 27px;
+    height: 27px;
+    border-radius: 7px;
 }
 
 .icon-paper {
