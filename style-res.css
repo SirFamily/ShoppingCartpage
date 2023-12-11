@@ -1,0 +1,42 @@
+/* Responsive Styles */
+@media only screen and (max-width: 1224px) {
+    /* Add styles for smaller screens */
+    body {
+        font-size: 16px;
+    }
+
+    .container-mycart{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .row1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .row1-col1{
+        background-color: #ffffff;
+        min-width: 50%;
+        height: auto;
+        border-radius: 35px;
+        display: flex;
+        align-items: center;
+    
+        padding: 25px;
+        margin-bottom: 35px;
+        margin-right: 35px;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+
+    .container-flex-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    /* Add more responsive styles as needed */
+}
