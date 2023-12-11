@@ -298,6 +298,12 @@ input {
 
 }
 
+.container-payment button:active{
+    transform: scale(0.97);
+    box-shadow: 2px 5px 10px rgb(255, 123, 0);
+    font-size: 15px;
+}
+
 .text-totle {
     margin-bottom: 5px;
     color: #00DBB6;

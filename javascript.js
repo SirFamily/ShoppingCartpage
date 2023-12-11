@@ -99,3 +99,5 @@ updateTotal();
     }
 }
 
+const audio= new Audio();
+audio.src = "./ching.mp3";
