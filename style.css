@@ -48,10 +48,11 @@ body {
     align-items: center;
     cursor: pointer;
 }
-.container-nav ul li:hover{
+
+.container-nav ul li:hover {
     color: #00DBB6;
     border-bottom: #00DBB6 solid 0.5px;
- 
+
 }
 
 .container-nav ul li {
@@ -60,17 +61,19 @@ body {
 
 }
 
-.icon-nav .noti{
+.icon-nav .noti {
     width: 20px;
     height: 20px;
     margin-right: 20px;
 }
-.icon-nav .noti1{
+
+.icon-nav .noti1 {
     width: 20px;
     height: 20px;
     margin-right: 20px;
 }
-.icon-nav .noti2{
+
+.icon-nav .noti2 {
     width: 20px;
     height: 20px;
     margin-right: 20px;
@@ -91,7 +94,7 @@ body {
     align-items: center;
     width: 20px;
     height: 20px;
-    border-radius: 50%; 
+    border-radius: 50%;
     background-color: red;
     border: 2px solid white;
 }
@@ -280,7 +283,7 @@ input {
     color: #ffffff;
 }
 
-.promotion button:active{
+.promotion button:active {
     transform: scale(0.97);
 }
 
@@ -302,7 +305,7 @@ input {
 
 }
 
-.container-payment button:active{
+.container-payment button:active {
     transform: scale(0.97);
     box-shadow: 2px 5px 10px rgb(255, 123, 0);
     font-size: 15px;
@@ -347,11 +350,11 @@ input {
     width: 35px;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
-.d{
+.d {
     display: flex;
     justify-content: space-between;
     border-bottom: rgb(146, 146, 146) solid 1px;
