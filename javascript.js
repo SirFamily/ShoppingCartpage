@@ -81,7 +81,8 @@ var priceSlid = parseInt(document.getElementById('price-slides').innerHTML);
 function updateTotal() {
   var total = priceDoc + priceSlid;
   var tax  = total * 0.07;
-  document.getElementById('to-price').innerHTML = "THB" + tax.toFixed(2) + " + tax 7%";
+  var total2 = tax + total;
+  document.getElementById('to-price').innerHTML = "THB" + total2.toFixed(2) + " + tax 7%";
   document.getElementById('price').innerHTML = "THB " + total;
 }
 
