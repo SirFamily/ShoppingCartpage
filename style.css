@@ -16,10 +16,13 @@ body {
     height: 60px;
     background-color: #ffffff;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     border-bottom: solid rgb(235, 235, 235) 1px;
+    transition: 0.5s ease;
 }
+
 
 .container-nav img {
     width: 189px;
@@ -31,6 +34,7 @@ body {
     list-style: none;
     padding: 0;
     display: flex;
+    flex-direction: row;
 }
 
 .menu ul li {
@@ -48,7 +52,7 @@ body {
     margin-right: 10px;
 }
 
-.icon-nav img {
+.icon-nav .noti {
     width: 20px;
     height: 20px;
     margin-right: 20px;
@@ -64,7 +68,7 @@ body {
 
 .row1 {
     display: flex;
-    flex-direction: column;
+
     align-items: flex-end;
 
 }
