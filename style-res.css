@@ -20,15 +20,13 @@
 
     .row1-col1{
         background-color: #ffffff;
-        min-width: 50%;
+        min-width: auto;
         height: auto;
         border-radius: 35px;
         display: flex;
         align-items: center;
-    
         padding: 25px;
         margin-bottom: 35px;
-        margin-right: 35px;
         box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     }
 
@@ -37,6 +35,16 @@
         justify-content: center;
         align-items: center;
       }
-
-    /* Add more responsive styles as needed */
+      .info {
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+        border-radius: 35px;
+        padding: 30px;
+        width: auto;
+        margin-right: 30px;
+    }
+    .toprice {
+        color: #00DBB6;
+        font-size: 18px;
+    }
 }
