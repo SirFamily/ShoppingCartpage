@@ -138,13 +138,7 @@ body{
     margin-bottom: 20px;
 }
 
-.dot{
-    display: flex;
-    background-color: rgb(156, 156, 156);
-    margin: 2px;
-    width: 15px;
 
-}
 select{
     margin-left: 10px;
     border-style:none
@@ -159,6 +153,8 @@ select{
     height: 17px;
     background-color: rgb(160, 160, 160);
     border-radius: 50%;
+    margin: 2px;
+    transition: background-color 0.5s ease;
   }
 
   .totle{
@@ -239,61 +235,25 @@ margin-right: 30px;
     box-shadow: 2px 5px 10px rgb(211, 211, 211);
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container-flex-row2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .text-totle{
+    margin-bottom: 5px;
+    color: #00DBB6;
+    border-bottom: black solid 1px;
   }
 
-.row1{
-}
-
-.row1-col1{
-
-    width: 100%;
-    margin: 3%;
-    padding: 10px;
-    background-color: wheat;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-}
-
-.row1-col1 .icon-del{
-    width: 25px;
-    height: 25px;
-}
-
-.container-square{
-    background-color: blue;
-    border-radius: 10px;
-    width: 150px;
-    height: 130px;
-    text-align: center;
-}
-
-
-.container-flex-info{
+  .total{
     display: flex;
-    flex-direction: column;
-    background-color: rgb(0, 59, 59);
-}
+    justify-content: space-between;
+    align-items: center;
+  }
+  .total p {
+    font-size: 20px;
+  }
 
-.icon-ad{
-    width: 10%;
-} */
+  .toprice{
+    color: #00DBB6;
+    font-size: 30px;
+  }
 
 .row1-col1 .icon-del{
     border: #00DBB6 solid 2px;

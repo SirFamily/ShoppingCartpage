@@ -36,10 +36,11 @@
                             alt=""></div>
                 </li>
                 <li>
-                    <div class="icon-nav"><img
+                    <div  class="icon-nav"><img
                             src="https://cdn-icons.flaticon.com/svg/3916/3916598.svg?token=exp=1702206054~hmac=d90787de7f091aa6fbd4f1b5ae2a11d9"
-                            alt=""></div>
+                            alt=""class="noti"></div>
                 </li>
+                <li>|</li>
                 <li>
                     <div class="text-nav">LOGIN</div>
                 </li>
@@ -49,7 +50,7 @@
             </ul>
         </div>
     </nav>
-    <h1>My Cart</h1>
+    <h1 style="margin-left: 50px;">My Cart</h1>
     <div class="container-mycart">
         <div class="container-flex-row2">
             <div class="row1">
@@ -69,17 +70,17 @@
                         <div class="level-detel">
                             <div class="dots">
                                 <span class="dot" id="dot-d-js1"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
+                                <span class="dot" id="dot-d-js2"></span>
+                                <span class="dot" id="dot-d-js3"></span>
                             </div>
-                            <select name="" id="docs" class="text-B">
+                            <select name="" id="docs" class="text-B" onchange="changeDotColorDocs()">
                                 <option value="0">LV 0-3</option>
                                 <option value="1">LV 1-3</option>
                                 <option value="2">LV 2-3</option>
                                 <option value="3">LV 3-3</option>
                             </select>
                         </div>
-                        <div class="totle">THB <span id="totle">0</span></div>
+                        <div class="totle">THB <span id="price-docs">0</span></div>
                     </div>
                 </div>
 
@@ -100,20 +101,19 @@
                         <div class="level-detel">
                             <div class="dots">
                                 <span class="dot" id="dot-s-js1"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
+                                <span class="dot" id="dot-s-js2"></span>
+                                <span class="dot" id="dot-s-js3"></span>
+                                <span class="dot" id="dot-s-js4"></span>
                             </div>
-                            <select name="" id="slides" class="text-B">
-                                <option value="0">LV 0/3</option>
-                                <option value="1">LV 1/3</option>
-                                <option value="2">LV 2/3</option>
-                                <option value="3">LV 3/3</option>
-                                <option value="4">LV 4/3</option>
+                            <select name="" id="slides" class="text-B" onchange="changeDotColorSlides()">
+                                <option value="0">LV 0/4</option>
+                                <option value="1">LV 1/4</option>
+                                <option value="2">LV 2/4</option>
+                                <option value="3">LV 3/4</option>
+                                <option value="4">LV 4/4</option>
                             </select>
                         </div>
-                        <div class="totle">THB <span id="totle">0</span></div>
+                        <div class="totle">THB <span id="price-slides">0</span></div>
                     </div>
                 </div>
 
@@ -125,9 +125,7 @@
                 <div class="container-info">
                     <div class="t">Order Info</div>
                     <div class="text-totle" id="docs-js"></div>
-                    <div class="text-totle" id="docs-lv-js"></div>
                     <div class="text-totle" id="slides-js"></div>
-                    <div class="text-totle" id="slides-lv-js"></div>
 
                     <div class="subtotle">
                         <div>Subtotal</div>
@@ -145,7 +143,7 @@
                 <div class="container-payment">
                     <div class="total">
                         <p>Total payment</p>
-                        <h1 id="to-price"></h1>
+                        <div id="to-price" class="toprice"></div>
                     </div>
                     <button type="button">LOG IN TO CHECKOUT</button>
                 </div>
