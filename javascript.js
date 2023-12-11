@@ -113,3 +113,6 @@ audio.src = "./ching.mp3";
 
 const audio2= new Audio();
 audio2.src = "./ping.mp3";
+
+const audio3= new Audio();
+audio3.src = "./crumple.mp3";
