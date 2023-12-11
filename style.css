@@ -46,10 +46,18 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+.container-nav ul li:hover{
+    color: #00DBB6;
+    border-bottom: #00DBB6 solid 0.5px;
+ 
 }
 
 .container-nav ul li {
     margin-right: 10px;
+    transition: 0.5s ease;
+
 }
 
 .icon-nav .noti{
