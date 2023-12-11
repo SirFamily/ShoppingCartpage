@@ -52,10 +52,19 @@ body {
     margin-right: 10px;
 }
 
-.icon-nav .noti {
+.icon-nav .noti{
     width: 20px;
     height: 20px;
     margin-right: 20px;
+}
+.icon-nav .noti1{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.noti1::before{
+    
 }
 
 .container-mycart {
@@ -68,9 +77,8 @@ body {
 
 .row1 {
     display: flex;
-
     align-items: flex-end;
-
+    flex-direction: column;
 }
 
 .row1-col1 {
