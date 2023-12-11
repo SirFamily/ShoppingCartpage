@@ -280,6 +280,10 @@ input {
     color: #ffffff;
 }
 
+.promotion button:active{
+    transform: scale(0.97);
+}
+
 .container-payment button {
     width: 100%;
     height: 45px;

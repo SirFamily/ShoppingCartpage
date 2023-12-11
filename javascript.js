@@ -101,3 +101,6 @@ updateTotal();
 
 const audio= new Audio();
 audio.src = "./ching.mp3";
+
+const audio2= new Audio();
+audio2.src = "./ping.mp3";
