@@ -104,3 +104,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }, delay);
   });
   
+
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "container-nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "container-nav";
+    }
+}
+

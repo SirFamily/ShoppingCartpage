@@ -50,6 +50,7 @@ body {
 
 .icon-nav img {
     width: 20px;
+    height: 20px;
     margin-right: 20px;
 }
 
@@ -168,6 +169,7 @@ select {
 .text-B {
     font-weight: bold;
     font-size: 15px;
+    cursor: pointer;
 }
 
 
@@ -288,4 +290,8 @@ input {
 
 .icon-ad {
     width: 35px;
+}
+
+button{
+    cursor: pointer;
 }
