@@ -62,10 +62,32 @@ body {
     height: 20px;
     margin-right: 20px;
 }
-
-.noti1::before{
-    
+.icon-nav .noti2{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
 }
+
+.icon-nav {
+    position: relative;
+}
+
+.icon-nav .noti {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: red;
+    border: 2px solid white;
+}
+
 
 .container-mycart {
     width: 100%;
@@ -267,7 +289,7 @@ input {
 .text-totle {
     margin-bottom: 5px;
     color: #00DBB6;
-    border-bottom: black solid 1px;
+    border-bottom: rgb(146, 146, 146) solid 1px;
 }
 
 .total {
