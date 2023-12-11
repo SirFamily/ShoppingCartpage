@@ -21,6 +21,12 @@
       right: 0;
       top: 0;
     }
+
+    .container-nav ul li:hover{
+        color: #00DBB6;
+        border-bottom: #00DBB6 solid 0.5px;
+     
+    }
     .container-nav.responsive ul li {
       display: block;
     }
