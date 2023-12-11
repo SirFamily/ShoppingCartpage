@@ -311,7 +311,6 @@ input {
 .text-totle {
     margin-bottom: 5px;
     color: #00DBB6;
-    border-bottom: rgb(146, 146, 146) solid 1px;
 }
 
 .total {
@@ -350,4 +349,10 @@ input {
 
 button{
     cursor: pointer;
+}
+
+.d{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgb(146, 146, 146) solid 1px;
 }
